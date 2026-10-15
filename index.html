@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#dce5ee">
+    <meta name="description" content="NataWeb: páginas web únicas, creativas y llenas de magia.">
+
+    <title>NataWeb | Crea tu mundo digital</title>
+
+    <link rel="stylesheet" href="diseño.css">
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <header class="navbar">
+        <a href="#inicio" class="logo">
+            ✦ NATA<span>WEB</span>
+        </a>
+
+        <a href="#registro" class="nav-button">
+            Comenzar ♡
+        </a>
+    </header>
+
+    <main class="contenedor" id="inicio">
+
+        <!-- Presentación -->
+        <section class="presentacion">
+
+            <div class="etiqueta">
+                ✧ Imagino un mundo y después lo creo ✧
+            </div>
+
+            <h1>
+                Diseñamos tu<br>
+                <span>mundo digital</span>
+            </h1>
+
+            <p>
+                ¿Sueñas con tener tu propia página web?
+                En NataWeb hacemos realidad tus ideas con
+                diseños únicos, creativos y llenos de magia.
+            </p>
+
+            <a href="#registro" class="boton-principal">
+                Quiero mi página ✦
+            </a>
+
+            <div class="detalles">
+                <span>♡ Diseño personalizado</span>
+                <span>✧ Estilo único</span>
+                <span>☁ La página de Nata</span>
+            </div>
+
+        </section>
+
+        <!-- Formulario de contacto -->
+        <section class="tarjeta" id="registro">
+
+            <div class="icono" aria-hidden="true">
+                🌙
+            </div>
+
+            <h2>¡Comienza tu nataaventura!</h2>
+
+            <p class="subtitulo">
+                Déjanos tus datos y cuéntanos tu idea.
+            </p>
+
+            <form
+                id="formulario"
+                action="https://formsubmit.app/f/fj8zm4bzku"
+                method="POST"
+            >
+
+                <!-- Asunto del mensaje -->
+                <input
+                    type="hidden"
+                    name="_subject"
+                    value="Nueva solicitud de NataWeb"
+                >
+
+                <!-- Campo antispam oculto -->
+                <input
+                    type="text"
+                    name="_gotcha"
+                    tabindex="-1"
+                    autocomplete="off"
+                    aria-hidden="true"
+                    style="display: none;"
+                >
+
+                <!-- Nombre -->
+                <label for="nombre">
+                    Tu nombre
+                </label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="¿Cómo te llamas?"
+                    minlength="2"
+                    maxlength="100"
+                    autocomplete="name"
+                    required
+                >
+
+                <!-- Correo -->
+                <label for="correo">
+                    Correo electrónico
+                </label>
+
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="tunombre@correo.com"
+                    maxlength="150"
+                    autocomplete="email"
+                    required
+                >
+
+                <!-- Mensaje -->
+                <label for="mensaje">
+                    Cuéntanos tu idea
+                </label>
+
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="4"
+                    minlength="5"
+                    maxlength="2000"
+                    placeholder="Quiero una página web para..."
+                    required
+                ></textarea>
+
+                <!-- Enviar -->
+                <button
+                    type="submit"
+                    class="boton-principal ancho"
+                >
+                    Enviar mi solicitud ♡
+                </button>
+
+                <!-- Limpiar -->
+                <button
+                    type="reset"
+                    class="boton-secundario ancho"
+                >
+                    Limpiar formulario ↺
+                </button>
+
+            </form>
+
+            <div class="privacidad">
+                ✧ Tus ideas merecen un espacio especial ✧
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>
+            © 2026 NataWeb, la página de Nata ·
+            Hecho con ♡ y un poquito de magia
+        </p>
+    </footer>
+
+</body>
+</html>
